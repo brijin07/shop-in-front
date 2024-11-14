@@ -27,7 +27,7 @@ const Purchase = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowMessage(false);
-    }, 10000); // 10 seconds
+    }, 3000); // 10 seconds
 
     setIsLoading(true);
     fetchProducts()
