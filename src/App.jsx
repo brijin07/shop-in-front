@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Purchase from "./purchase/Purchase";
-import Sale from "./sale/sale";
+import Sale from "./sale/Sale";
 import Stock from "./stock/Stock";
 
 function App() {

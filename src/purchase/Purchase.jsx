@@ -101,7 +101,7 @@ const Purchase = () => {
         {showMessage && <p>Please wait, fetching data from server...</p>}
       </div>{" "}
       <div className="back-ground">
-        <div className="main border border-primary mb-5">
+        <div className="main border border-primary mb-5 p-2">
           <h3 className="mb-5">Purchase Stock</h3>
 
           {error && <Alert variant="danger">{error}</Alert>}

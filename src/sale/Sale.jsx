@@ -67,7 +67,7 @@ const Sale = () => {
 
   return (
     <div className="back-ground">
-      <div className="main border border-primary ">
+      <div className="main border border-primary p-2 ">
         <div className="w-100 h-5 d-flex justify-content-end pe-5 pb-2">
           <Link to={"/"}>
             <Button className="">back</Button>
